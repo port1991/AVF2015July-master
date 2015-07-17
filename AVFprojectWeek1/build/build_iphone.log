@@ -1,5 +1,5 @@
 
-Sat Jul 11 2015 18:57:00 GMT-0500 (ECT)
+Fri Jul 17 2015 11:20:33 GMT-0500 (ECT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/bla/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ipad --log-level trace --sdk 4.0.0.GA --project-dir /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1 --target simulator --ios-version 8.3 --device-family universal --deploy-type development --sim-type ipad --sim-version 8.3 --device-id 2AB6750C-DD39-4F55-8F26-7918BDC5EE6A --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 56414 --username portilla_1@msn.com --password mhpr1991 --plugin-paths /Users/bla/.appcelerator/install/4.0.2/package/node_modules --config-file /var/folders/dh/xf0sgp_12n3ch00vllmzdggm0000gn/T/build-1436659015289.json --no-banner
+  /usr/local/bin/node /Users/bla/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ipad --log-level trace --sdk 4.0.0.GA --project-dir /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1 --target simulator --ios-version 8.3 --device-family universal --deploy-type development --sim-type ipad --sim-version 8.3 --device-id 2AB6750C-DD39-4F55-8F26-7918BDC5EE6A --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49608 --plugin-paths /Users/bla/.appcelerator/install/4.0.2/package/node_modules --config-file /var/folders/dh/xf0sgp_12n3ch00vllmzdggm0000gn/T/build-1437150029378.json --no-banner
 
 [DEBUG]  Detecting modules in /Users/bla/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/bla/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
@@ -59,6 +59,7 @@ Command
 [DEBUG]  Setting Info.plist CFBundleShortVersionString to 1.0
 [DEBUG]  Copying /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/iphone/appicon.png => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/appicon.png
 [INFO]   Initiating Xcode pre-compile phase
+[DEBUG]  Ignoring /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/.DS_Store
 [DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/1.png => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/1.png
 [DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/KS_nav_ui.png => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/KS_nav_ui.png
 [DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/KS_nav_views.png => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/KS_nav_views.png
@@ -78,19 +79,23 @@ Command
 [DEBUG]  Copying /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/iphone/appicon.png => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/appicon.png
 [INFO]   Processing JavaScript files
 [DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/app.js => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/app.js
+[DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/geo.js => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/geo.js
+[DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/network.js => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/network.js
+[DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/ui.js => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/ui.js
+[DEBUG]  Symlinking /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/Resources/url.js => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/url.js
 [DEBUG]  Symlinking /Users/bla/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8/ti.cloud.js => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/ti.cloud.js
 [INFO]   Processing Titanium namespace resources
 [DEBUG]  Copying /Users/bla/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/iphone/modules/ui/images => /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app/modules/ui/images
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 646ms
+[INFO]   Finished building the application in 447ms
 [INFO]   Launching iOS Simulator
-[DEBUG]  [ioslib] Removing old log file: /Users/bla/Library/Developer/CoreSimulator/Devices/2AB6750C-DD39-4F55-8F26-7918BDC5EE6A/data/Containers/Data/Application/9966DE65-52D8-4B6A-A2A5-D8CE662D1190/Documents/38759db4-804e-4493-9444-7fdc77e48041.log
+[DEBUG]  [ioslib] Removing old log file: /Users/bla/Library/Developer/CoreSimulator/Devices/2AB6750C-DD39-4F55-8F26-7918BDC5EE6A/data/Containers/Data/Application/795313B0-969D-448B-ADC0-99FF8B006E74/Documents/38759db4-804e-4493-9444-7fdc77e48041.log
 [DEBUG]  [ioslib] Executing: /Users/bla/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/node_modules/ioslib/lib/ios-sim "launch" "/Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app" "--verbose" "--xcode-dir" "/Applications/Xcode.app/Contents/Developer" "--udid" "2AB6750C-DD39-4F55-8F26-7918BDC5EE6A" "--timeout" "180"
 [DEBUG]  [ioslib] Executing: osascript "/Users/bla/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/node_modules/ioslib/lib/iphone_sim_activate.scpt" "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7fde5a729d40> specified by app path /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7fde5a738140> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/dh/xf0sgp_12n3ch00vllmzdggm0000gn/T//ios-sim-stderr-pipe-1436659021'
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/dh/xf0sgp_12n3ch00vllmzdggm0000gn/T//ios-sim-stdout-pipe-1436659021'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7f9791e04680> specified by app path /Users/bla/Documents/Appcelerator_Studio_Workspace/AVFprojectWeek1/build/iphone/build/Debug-iphonesimulator/AVFprojectWeek1.app
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7f9791e11ed0> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/dh/xf0sgp_12n3ch00vllmzdggm0000gn/T//ios-sim-stderr-pipe-1437150034'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/dh/xf0sgp_12n3ch00vllmzdggm0000gn/T//ios-sim-stdout-pipe-1437150034'
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] using device family iphone
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 4ECB1785-F3E7-4F08-A4BD-2668A9AD9FAD == 2AB6750C-DD39-4F55-8F26-7918BDC5EE6A
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 7F02C9A5-26E2-463A-ACCA-6EF6EF73D320 == 2AB6750C-DD39-4F55-8F26-7918BDC5EE6A
@@ -100,5 +105,5 @@ Command
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 2AB6750C-DD39-4F55-8F26-7918BDC5EE6A == 2AB6750C-DD39-4F55-8F26-7918BDC5EE6A
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] set device to : iPad 2
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Session started
-[DEBUG]  [ioslib] Found application log file: /Users/bla/Library/Developer/CoreSimulator/Devices/2AB6750C-DD39-4F55-8F26-7918BDC5EE6A/data/Containers/Data/Application/67920985-4D04-4052-9F66-480171433C25/Documents/38759db4-804e-4493-9444-7fdc77e48041.log
-[INFO]   Project built successfully in 21s 129ms
+[DEBUG]  [ioslib] Found application log file: /Users/bla/Library/Developer/CoreSimulator/Devices/2AB6750C-DD39-4F55-8F26-7918BDC5EE6A/data/Containers/Data/Application/A7FAFC1F-0625-4477-A788-E2F4719AABC4/Documents/38759db4-804e-4493-9444-7fdc77e48041.log
+[INFO]   Project built successfully in 8s 831ms

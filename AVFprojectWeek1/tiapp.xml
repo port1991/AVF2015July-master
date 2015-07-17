@@ -17,6 +17,8 @@
         <plist>
             <dict>
                 <key>UISupportedInterfaceOrientations~iphone</key>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <key>NSLocationWhenInUseUsageDescription</key>
                 <array>
                     <string>UIInterfaceOrientationPortrait</string>
                 </array>
