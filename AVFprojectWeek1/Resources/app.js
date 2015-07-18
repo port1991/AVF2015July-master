@@ -9,6 +9,7 @@
 var win = require("ui").createUI();
 var geo = require("geo");
 var net = require("url");
+var db = require('db');
 
 win.open();
 
@@ -18,6 +19,8 @@ if (Ti.Network.online) {
 }
 else {
 	//Not connnected to internet. Get data from local database.
+	var data = db.fetch();
+	win.update(data);
 };
 
 //function to be invoked on successful gps operation
@@ -30,4 +33,5 @@ function onDataReceive(data){
 	win.update(data);
 	
 	//Store the data in local db
+	db.insert(data);
 }
