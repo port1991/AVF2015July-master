@@ -19,6 +19,7 @@ if (Ti.Network.online) {
 }
 else {
 	//Not connnected to internet. Get data from local database.
+	alert("no internet connection, getting last info");
 	var data = db.fetch();
 	win.update(data);
 };
