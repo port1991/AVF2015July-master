@@ -1,9 +1,8 @@
 {
-	"target": "device",
-	"deployType": "test",
+	"target": "simulator",
+	"deployType": "development",
 	"iosSdkVersion": "8.4",
 	"deviceFamily": "universal",
-	"developerName": "miguel Portilla (VA82M68L6F)",
 	"iosSdkPath": "/Users/bla/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
 	"modulesHash": "7fb655db1d51a26b74a2778ab4a02a6b",
@@ -18,8 +17,8 @@
 	"description": "bla is the name of my laptop",
 	"copyright": "2015 by bla(my laptop)",
 	"guid": "38759db4-804e-4493-9444-7fdc77e48041",
-	"skipJSMinification": false,
+	"skipJSMinification": true,
 	"forceCopy": false,
 	"forceCopyAll": false,
-	"encryptJS": true
+	"encryptJS": false
 }
