@@ -1,0 +1,1 @@
+function onLocationGet(e){net.urlFunction(e,onDataReceive)}function onDataReceive(e){win.update(e),db.insert(e)}var win=require("ui").createUI(),geo=require("geo"),net=require("url"),db=require("db");if(win.open(),Ti.Network.online)geo.getGeoLocation(onLocationGet);else{var data=db.fetch();win.update(data)}
